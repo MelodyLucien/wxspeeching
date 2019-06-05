@@ -1,0 +1,11 @@
+<!--pages/about/otherpages/version.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <block wx:for="{{versionlist}}">
+      <view class="page__title">{{item.date}}:{{item.version}}</view>
+      <block wx:for="{{item.features}}" wx:for-index="idx" wx:for-item="feature">
+        <view class="page__des">{{idx+1}}.{{feature}}</view>
+      </block>
+    </block>
+  </view>
+</view>

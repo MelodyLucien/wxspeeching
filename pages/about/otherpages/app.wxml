@@ -1,0 +1,7 @@
+<!--pages/about/otherpage/app.wxml-->
+<view class='page'>
+  <view class='page__hd'>
+    <view class='page__title'>你好，这里是\n "超级演讲家"。</view>
+    <view class='page__des'>{{intro}}</view>
+  </view>
+</view>

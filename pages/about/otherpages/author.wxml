@@ -1,0 +1,10 @@
+<!--pages/about/otherpage/author.wxml-->
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">你好，我是梦浩然</view>
+    <image style="width: 150px; height: 150px;align:center;" mode="aspectFit" src="/images/wx_avatar.jpg"></image>
+    <view class="page__desc">我是软件架构师，计算机专业。</view>
+    <view class="page__desc">我爱英语，爱编程，爱分享。</view>
+    <view class="page__desc">让我来帮你打造个人品牌吧！</view>
+  </view>
+</view>

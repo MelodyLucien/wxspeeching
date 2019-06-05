@@ -1,0 +1,14 @@
+<view class="weui-cells__title">我的标签信息</view>
+<view class="weui-cells weui-cells_after-title" wx:for="{{labels}}">
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">{{item}}</view>
+    </view>
+    <view class="weui-cell__bd">
+      <input class="weui-input" placeholder="请输入{{item}}" />
+    </view>
+  </view>
+</view>
+<view class="page__bd page__bd_spacing">
+<button class="weui-btn" type="primary" plain='true'>添加新名片</button>
+</view>
