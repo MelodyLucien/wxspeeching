@@ -15,7 +15,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.6.6",
 	"appid": "wxd8b74780598da7ff",
-	"projectname": "miniprogram-test-1",
+	"projectname": "wxspeeching",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

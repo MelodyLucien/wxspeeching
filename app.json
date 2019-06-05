@@ -1,36 +1,37 @@
 {
   "pages": [
-    "pages/cards/cards",
-    "pages/index/index",
-    "pages/edit/edit",
+    "pages/guide/guide",
+    "pages/practice/practice",
     "pages/about/about",
-    "pages/logs/logs"
+    "pages/about/otherpages/app",
+    "pages/about/otherpages/author",
+    "pages/about/otherpages/version"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "千面名片",
+    "navigationBarTitleText": "超级演讲家",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-      "color": "#000",
-      "selectedColor": "#2196f3",
-      "backgroundColor": "#fff",
-      "borderStyle": "white",
-      "list": [
-        {
-          "pagePath": "pages/cards/cards",
-          "text": "名片"
-        },
-        {
-          "pagePath": "pages/edit/edit",
-          "text": "编辑"
-        },
-        {
-          "pagePath": "pages/about/about",
-          "text": "关于"
-        }
-      ]
+    "color": "#000",
+    "selectedColor": "#2196f3",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/guide/guide",
+        "text": "指导"
+      },
+      {
+        "pagePath": "pages/practice/practice",
+        "text": "践行"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
